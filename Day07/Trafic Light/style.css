@@ -1,0 +1,49 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+h1{
+    text-align: center;
+}
+
+.main{
+    width: 7rem;
+    height: 18rem;
+    border: 2px solid white;
+    margin: auto;
+    display: grid;
+    justify-content: center;
+    padding: 10px 0;
+    border-radius: 15px;
+}
+.l{
+    width: 5rem;
+    height: 5rem;
+    border: 2px solid rgb(95, 93, 93);
+    border-radius: 50%;
+}
+
+.red, .yellow, .green {
+  border-radius: 50%;
+  opacity: 0.3;
+}
+
+.red { background-color: red; }
+.yellow { background-color: yellow; }
+.green { background-color: green; }
+
+.red.active {
+  opacity: 1;
+  box-shadow: 0 0 20px 10px red;
+}
+
+.yellow.active {
+  opacity: 1;
+  box-shadow: 0 0 20px 10px yellow;
+}
+
+.green.active {
+  opacity: 1;
+  box-shadow: 0 0 20px 10px green;
+}

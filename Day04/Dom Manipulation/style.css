@@ -1,0 +1,6 @@
+body{
+    background-image: linear-gradient(to left,red,green,blue);
+    text-align: center;
+    color: white;
+    font-style: italic;
+}
